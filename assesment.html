@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fixed Header, Centered Content, and Fixed Footer Layout</title>
+    <style>
+      /* Set body margin and padding to 0 to prevent default browser styles */
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Set header height and background color */
+      header {
+        height: 50px;
+        background-color: #333;
+        color: #fff;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+      }
+
+      /* Set footer height, background color, and position */
+      footer {
+        height: 50px;
+        background-color: #333;
+        color: #fff;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+/* Set content width and height, and center it horizontally and vertically */
+main {
+        width: 80%;
+        height: 80%;
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Fixed Header</h1>
+    </header>
+    <main>
+      <h2>Centered Content</h2>
+      <p>Hi this is Chendur Sutharsan</p>
+    </main>
+    <footer>
+      <p>Fixed Footer</p>
+    </footer>
+  </body>
+</html>
